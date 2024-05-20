@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="notice.js"></script>
+</head>
+
+
+<body>
+    <button id="myButton">Click me</button>
+
+    <script>
+        document.getElementById('myButton').addEventListener('click', function handleClick() {
+            notice.open('Hello World!', 'success', 1200)
+        });
+
+    </script>
+</body>
+
+</html>
